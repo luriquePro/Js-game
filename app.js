@@ -4,13 +4,7 @@ function jogarNovamente() {
 		: false;
 
 	const numeroSecreto = Math.floor(Math.random() * 5);
-	const chute = Number(prompt(`Escolha um número de 0 a 5`));
-	if (!chute) {
-		escreverTexto(
-			`<h1>Você deve escolher um <span class="container__texto-vermelho">Número!</span></h1><button class="container__botao-jogar-novamente" onclick="jogarNovamente()">Jogar novamente</button>`
-		);
-		return;
-	}
+	const chute = prompt(`Escolha um número de 0 a 5`);
 
 	if (chute) {
 		if (numeroSecreto == chute) {
