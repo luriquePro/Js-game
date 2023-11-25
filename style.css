@@ -90,6 +90,14 @@ body::before {
     background-color: #034eaa;
 }
 
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 2rem ;
+}
 
 h1 {
     font-family: 'Chakra Petch', sans-serif;
